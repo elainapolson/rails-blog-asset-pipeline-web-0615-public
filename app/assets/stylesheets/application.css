@@ -10,4 +10,25 @@
  *
  *= require_self
  *= require_tree .
+ *= require bootstrap
  */
+
+ .well {
+  width: 350px ;
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+.jumbotron {
+  margin-bottom: 0px;
+  background-image: url(/assets/jumbotron.jpg);
+  background-position: 0% 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  text-shadow: black 0.3em 0.3em 0.3em;
+}
+
+body > div.jumbotron > h1 {
+  color: purple;
+}

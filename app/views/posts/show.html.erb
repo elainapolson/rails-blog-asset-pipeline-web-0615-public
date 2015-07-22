@@ -1,4 +1,4 @@
-<p id="notice"><%= notice %></p>
+<div class ="well"><p id="notice"><%= notice %></p>
 
 <h3>Title:</h3>
 <%= @post.name %>
@@ -34,9 +34,9 @@
       <%= f.submit %>
     </div>
   <% end %>
-<% end %>
+<% end %></div>
 
 <% if user_signed_in? %>
   <%= link_to 'Edit', edit_post_path(@post) %> |
 <% end %>
-<%= link_to 'Back', posts_path %>
+  <%= link_to 'Back', posts_path %>
